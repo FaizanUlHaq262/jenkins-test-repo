@@ -10,7 +10,7 @@ pipeline{
         stage('creating a new file'){
             steps{
                 echo "Creating a new file..."
-                sh "touch myFile.txt"
+                bat 'echo. > myFile.txt'
                 echo "File created...."
             }
         }
