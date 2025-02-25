@@ -9,7 +9,7 @@ pipeline{
 
         stage('print statement'){
             steps{
-                sh echo "Working till here boss hahaha...."
+                echo "Working till here boss hahaha...."
             }
         }
     }
