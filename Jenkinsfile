@@ -7,9 +7,11 @@ pipeline{
             }
         }
 
-        stage('print statement'){
+        stage('creating a new file'){
             steps{
-                echo "Working till here boss hahaha...."
+                echo "Creating a new file..."
+                sh "touch myFile.txt"
+                echo "File created...."
             }
         }
     }
