@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('checkout the repo'){
             steps{
-                git 'https://github.com/FaizanUlHaq262/jenkins-test-repo.git'
+                git branch:"main", url:'https://github.com/FaizanUlHaq262/jenkins-test-repo.git'
             }
         }
 
